@@ -1,0 +1,13 @@
+prefix=/home/sarathnadendla/Desktop/AgenticAI Code/EducationChatbot/venv
+exec_prefix=/home/sarathnadendla/Desktop/AgenticAI Code/EducationChatbot/venv
+libdir=/home/sarathnadendla/Desktop/AgenticAI Code/EducationChatbot/venv/lib
+sharedlibdir=/home/sarathnadendla/Desktop/AgenticAI Code/EducationChatbot/venv/lib
+includedir=/home/sarathnadendla/Desktop/AgenticAI Code/EducationChatbot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
